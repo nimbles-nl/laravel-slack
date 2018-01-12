@@ -29,7 +29,7 @@ Add nimbles-nl/laravel-slack by running the command:
 composer require nimbles-nl/laravel-slack
 ```
 
-### Step 2: Configure you http adapter in your service container
+### Step 2: Configure you HTTP Adapter in your service container
 Configure the http adapter in your AppServiceProvider.php
 
 ``` php
