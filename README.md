@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nimbles-nl/laravel-slack.svg?branch=master)](https://travis-ci.org/nimbles-nl/laravel-slack)
+[![Build Status](https://travis-ci.org/nimbles-nl/laravel-slack.svg?branch=master)](https://travis-ci.org/nimbles-nl/laravel-slack)[![Latest Stable Version](https://poser.pugx.org/nimbles-nl/laravel-slack/v/stable)]
 
 Laravel Slack Package
 =====================
