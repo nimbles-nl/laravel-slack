@@ -85,16 +85,12 @@ Usage
 
 ``` php
 $slackMessage = new SlackMessage('You're looking great today!', '#general', 'AwesomeBot', 'https://www.link-to-avatar.com/image.png');
+
 app('slack')->sendMessage($slackMessage);
 ````
 
 Or if you want to use facade, add this in your class after namespace declaration:
 
 ``` php
-use Slack;
-```
-
-Then you can use it directly by calling `Slack::` like:
-``` php
-$url = Slack::sendMessage(new SlackMessage('You are looking great today!'));
+Slack::sendMessage(new SlackMessage('You are looking great today!'));
 ````
