@@ -1,13 +1,13 @@
-?php
+<?php
 /*
 * (c) Nimbles b.v. <wessel@nimbles.com>
 *
 * For the full copyright and license information, please view the LICENSE
 * file that was distributed with this source code.
 */
-namespace Tests\Nimbles\CMTelecom\Model;
+namespace Tests\Nimbles\Slack\Model;
 
-use Nimbles\CMTelecom\Model\Issuer;
+use Nimbles\Slack\Model\SlackMessage;
 use PHPUnit\Framework\TestCase;
 
 class SlackMessageTest extends TestCase
