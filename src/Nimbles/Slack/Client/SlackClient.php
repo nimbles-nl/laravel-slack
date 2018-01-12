@@ -10,9 +10,8 @@ namespace Nimbles\Slack\Client;
 
 use GuzzleHttp\Psr7\Request;
 use Http\Client\HttpClient;
-use Nimbles\Services\Slack\Exception\SlackException;
-use Nimbles\Services\Slack\Model\SlackMessage;
-use Nimbles\Services\Slack\Slack;
+use Nimbles\Slack\Exception\SlackException;
+use Nimbles\Slack\Model\SlackMessage;
 
 /**
  * Class SlackClient
