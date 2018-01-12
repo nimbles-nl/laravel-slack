@@ -15,9 +15,11 @@ Installation
 Installation is a quick 3 step process:
 
 1. Download laravel-slack using composer
-2. Enable the package in app.php
-3. Configure your Slack credentials
-4. (Optional) Configure the package facade
+2. Configure your HTTP Adapter
+3. Enable the package in app.php
+4. Configure your Slack credentials
+5. (Optional) Configure the package facade
+
 
 ### Step 1: Download laravel-slack using composer
 
@@ -27,7 +29,21 @@ Add nimbles-nl/laravel-slack by running the command:
 composer require nimbles-nl/laravel-slack
 ```
 
-### Step 2: Enable the package in app.php
+### Step 2: Download laravel-slack using composer
+
+Configure the http adapter in your AppServiceProvider.php
+
+``` php
+use GuzzleHttp\Client as GuzzleClient;
+use Http\Adapter\Guzzle6\Client as GuzzleAdapter;
+
+
+$this->app->singleton('http.client', function() {
+    return new GuzzleAdapter(new GuzzleClient());
+});
+```
+
+### Step 3: Enable the package in app.php
 
 Register the Service in: **config/app.php**
 
@@ -35,7 +51,7 @@ Register the Service in: **config/app.php**
 Nimbles\Slack\SlackServiceProvider::class,
 ````
 
-### Step 3: Configure Slack credentials
+### Step 4: Configure Slack credentials
 
 ```
 php artisan vendor:publish
@@ -47,7 +63,7 @@ Add this in you **.env** file
 SLACK_ACCESS_TOKEN=your_secret_slack_access_token
 ```
 
-### Step 4 (Optional): Configure the package facade
+### Step 5 (Optional): Configure the package facade
 
 Register the Slack Facade in: **config/app.php**
 
