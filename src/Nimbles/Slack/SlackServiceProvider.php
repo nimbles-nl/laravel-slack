@@ -8,8 +8,8 @@
 
 namespace Nimbles\Slack;
 
-
 use Illuminate\Support\ServiceProvider as AppServiceProvider;
+use Nimbles\Slack\Client\SlackClient;
 
 /**
  * Class SlackServiceProvider
