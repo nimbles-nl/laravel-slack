@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nimbles-nl/laravel-slack.svg?branch=master)](https://travis-ci.org/nimbles-nl/laravel-slack)
+
 Laravel Slack Package
 =====================
 
