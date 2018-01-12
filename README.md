@@ -84,7 +84,7 @@ Usage
 -----
 
 ``` php
-$slackMessage = new SlackMessage('You're looking great today!', '#general', 'AwesomeBot', 'https://www.link-to-avatar.com/image.png');
+$slackMessage = new SlackMessage('You re looking great today!', '#general', 'AwesomeBot', 'https://www.link-to-avatar.com/image.png');
 
 app('slack')->sendMessage($slackMessage);
 ````
