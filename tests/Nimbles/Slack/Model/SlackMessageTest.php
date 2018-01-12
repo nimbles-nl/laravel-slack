@@ -17,5 +17,8 @@ class SlackMessageTest extends TestCase
         $slackMessage = new SlackMessage('You look awesome!', '#test', 'TestBot', 'https://www.awesomeimage.com/image.png');
         
         $this->assertSame('You look awesome!', $slackMessage->getMessage());
+        $this->assertSame('#test', $slackMessage->getChannel());
+        $this->assertSame('TestBot', $slackMessage->getUsername());
+        $this->assertSame('https://www.awesomeimage.com/image.png', $slackMessage->getIconUrl());
     }
 }
