@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/nimbles-nl/laravel-slack.svg?branch=master)](https://travis-ci.org/nimbles-nl/laravel-slack)[![Latest Stable Version](https://poser.pugx.org/nimbles-nl/laravel-slack/v/stable)]
+[![Build Status](https://travis-ci.org/nimbles-nl/laravel-slack.svg?branch=master)](https://travis-ci.org/nimbles-nl/laravel-slack) [![Latest Stable Version](https://poser.pugx.org/nimbles-nl/laravel-slack/v/stable)](https://packagist.org/packages/nimbles-nl/laravel-slack) [![License](https://poser.pugx.org/nimbles-nl/laravel-slack/license)](https://packagist.org/packages/nimbles-nl/laravel-slack) [![Total Downloads](https://poser.pugx.org/nimbles-nl/laravel-slack/downloads)](https://packagist.org/packages/nimbles-nl/laravel-slack) [![codecov](https://codecov.io/gh/nimbles-nl/laravel-slack/branch/master/graph/badge.svg)](https://codecov.io/gh/nimbles-nl/laravel-slack) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nimbles-nl/laravel-slack/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nimbles-nl/laravel-slack/?branch=master)
+
+
 
 Laravel Slack Package
 =====================
