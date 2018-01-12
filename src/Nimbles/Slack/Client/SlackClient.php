@@ -16,7 +16,7 @@ use Nimbles\Slack\Model\SlackMessage;
 /**
  * Class SlackClient
  */
-class SlackClient implements Slack
+class SlackClient
 {
     /** @var HttpClient */
     private $httpClient;
