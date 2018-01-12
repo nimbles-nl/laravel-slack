@@ -15,7 +15,7 @@
     </php>
 
     <testsuites>
-        <testsuite name="cm-telecom">
+        <testsuite name="laravel-slack">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
