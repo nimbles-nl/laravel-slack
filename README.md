@@ -96,5 +96,5 @@ use Slack;
 
 Then you can use it directly by calling `Slack::` like:
 ``` php
-$url = Slack::sendMessage(new SlackMessage('You're looking great today!'));
+$url = Slack::sendMessage(new SlackMessage('You are looking great today!'));
 ````
